@@ -1,0 +1,208 @@
+body {
+  font-family: 'Roboto', serif;
+  background-color: #E4E4E4;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 25px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+h2 {
+  color: #EC2067;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.author, .number-10 {
+  color: #9A9A9A;
+}
+
+.book-container, .new-book-form {
+  border: 1px solid #BBBBBB;
+  padding: 5px 0 10px 15px;
+  background-color: #ffffff;
+  margin: 5px 0 5px 0;
+  overflow: hidden;
+  -moz-box-shadow: 0 0 5px #AEAEAE;
+  -webkit-box-shadow: 0 0 5px #AEAEAE;
+  box-shadow: 0 0 5px #AEAEAE;
+}
+
+.col-xs-12 {
+  padding: 0 5px 0 5px;
+}
+
+/*book container styles*/
+.book-container-buttons {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.book-container-buttons span, .free-sample span {
+  margin-right: 15px;
+}
+
+/*No and Yes buttons styles*/
+.no-yes {
+  margin-top: 20px;
+}
+
+.no-yes span:hover {
+  cursor: pointer;
+}
+
+.read-books, .review-explore {
+  color: #FCB039;
+}
+
+/*desktop styles*/
+.desktop-nav, .mobile-nav-row {
+  background-color: #EB2167;
+  height: 45px;
+  margin-bottom: 0;
+}
+
+.desktop-nav-items {
+  height: 45px;
+  background-color: #ffffff;
+}
+
+.desktop-nav-items ul {
+  list-style-type: none;
+  padding: 13px 0 13px 0;
+}
+
+.desktop-nav-items li {
+  display: inline;
+  padding-left: 25px;
+}
+
+.desktop-nav h1 {
+  position: relative;
+  top: 15%;
+  transform: translateY(-50%);
+}
+
+/*mobile styles*/
+.mobile-nav-row {
+  display: none;
+}
+
+.mobile-nav-item {
+  height: 45px;
+  padding: 15px;
+  padding-right: -10px;
+  margin-right: -10px;
+  margin-top: 5px;
+}
+
+.mobile-nav-item:last-child {
+  margin-bottom: 7px;
+}
+
+.mobile-nav-detail-container {
+  position: absolute;
+  z-index: 1;
+  background-color: #ffffff;
+  width: 100%;
+  left: 0;
+  top: 45px;
+}
+
+.mobile-nav-wrap {
+  position: relative;
+  top: 20%;
+  transform: translateY(-50%);
+  padding-top: 20px;
+}
+
+.grey-screen {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 220px;
+  background-color: rgba(0,0,0,0.5);
+  color:rgba(0,0,0,0.5);
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+}
+
+svg {
+  padding-top: 6px;
+  margin-left: 12px;
+}
+
+/*book form styles*/
+.form-control {
+  width: 96%;
+}
+
+.form-horizontal {
+  padding: 5px 10px 10px 15px;
+  margin: 5px 0 5px 0;
+}
+
+/*horizontal rule styles*/
+.beach-hr {
+  padding: 0;
+  margin: 20px -10px 0 -15px;
+  color: #cecece;
+}
+
+.welcome-hr {
+  margin-top: 50px;
+}
+
+hr {
+  color: #cecece;
+  margin: 25px -50px 0 -50px;
+}
+
+.nav-hr {
+  margin: 8px -5px 0 -5px;
+}
+
+/*misc styles*/
+.book-image {
+  float: left;
+  height: 167px;
+  width: 105px;
+  margin: -5px 0px -10px -15px;
+}
+
+.australian-beach {
+  width: 107%;
+  padding: 0;
+  margin: -5px -10px 20px -15px;
+}
+
+.author, .free-sample, h3 {
+  padding-left: 110px;
+}
+
+.free-sample {
+  margin-top: 23px;
+}
+
+@media screen and (max-width : 768px){
+  .desktop-nav-row {
+    display: none;
+  }
+  .mobile-nav-row {
+    display: block;
+  }
+}
+
+
+
